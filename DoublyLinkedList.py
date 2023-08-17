@@ -130,17 +130,3 @@ class DoublyLinkedList:
             self.head = None
             self.tail = None
             print("The DLL has been successfully deleted")
-    
-
-
-doubyLL = DoublyLinkedList()
-doubyLL.createDLL(5)
-doubyLL.insertNode(0,0)
-doubyLL.insertNode(2,1)
-doubyLL.insertNode(6,2)
-print([node.value for node in doubyLL]) 
-doubyLL.deleteDLL()
-print([node.value for node in doubyLL]) 
-
-
-
